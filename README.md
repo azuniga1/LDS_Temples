@@ -31,3 +31,32 @@ temple_data = pd.read_csv(data)
 temple_data.head()
 ```
 
+I checked the date set for any crucial values missing by using isnull() how many rows and columns the data set contained by using .shape and nunique() to determine the number of unique values in the temple column. 
+
+#### Question
+How many temples are there world wide?
+
+What are the top 5 countries with temples?
+
+How many temples in the USA?
+
+what US state has the most Temples?
+
+
+#### Graphs
+I used plotly to cretate interactive maps of the temples by country and US states. 
+
+
+##### Country Graphs
+
+
+##### State Graphs
+In order to create state graphs I need to convert the State column from full US state name to be abbriviated by creating a dictionary with state abbriviations and using .map to create a new column with state abbrivations
+
+
+
+
+
+
+
+
