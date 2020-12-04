@@ -13,3 +13,9 @@ For this project I will be analyzing how many and where all the LDS temples are 
 * Country
 * Phone
 
+## Technology Used
+* Pandas
+* MatplotLib
+* Seaborn
+* Plotly
+* [Cufflinks](https://github.com/santosjorge/cufflinks)
