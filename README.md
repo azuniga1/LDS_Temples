@@ -40,7 +40,7 @@ What are the top 5 countries with temples?
 
 How many temples in the USA?
 
-what US state has the most Temples?
+What are the top 5 US States with temples?
 
 
 #### Graphs
