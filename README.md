@@ -26,6 +26,8 @@ For this project I will be geographical ploting and  analyzing how many and wher
 I used pandas to read in the csv dat to create a dataframe
 
 ```python
-data = pd.read_csv('data/911.csv')
-data.head()
+data = "Resources/ChurchofJesusChristTemples.csv"
+temple_data = pd.read_csv(data)
+temple_data.head()
 ```
+
