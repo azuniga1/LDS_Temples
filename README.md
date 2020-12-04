@@ -23,7 +23,7 @@ For this project I will be geographical ploting and  analyzing how many and wher
 ## Process
 ### Analysis
 
-I used pandas to read in the csv dat to create a dataframe
+I used pandas to read in the csv data to create a dataframe
 
 ```python
 data = "Resources/ChurchofJesusChristTemples.csv"
