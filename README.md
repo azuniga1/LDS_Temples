@@ -66,6 +66,9 @@ us_state_abbrev = {
     'West Virginia': 'WV','Wisconsin': 'WI','Wyoming': 'WY'
 }
 ```
+```python
+temple_count_state['Abbrev'] = temple_count_state['State'].map(us_state_abbrev)
+```
 
 
 
