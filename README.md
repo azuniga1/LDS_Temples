@@ -35,7 +35,7 @@ temple_data.head()
 
 I checked the date set for missing by using isnull() and  how many rows and columns the data set contained by using .shape and nunique() to determine the number of unique values in the temple column. 
 
-#### Question
+#### Questions
 How many temples are there world wide?
 
 ![Total Number of Temples](images/NoOfTemples.PNG)
@@ -61,13 +61,13 @@ What are the top 5 US States with temples?
 I used plotly to cretate interactive maps of the temples by country and US states. 
 
 
-##### Country Graphs
+##### Country Graph
 
 ![Country Plot](images/countryplot.png)
 
 
 
-##### State Graphs
+##### State Graph
 To use the USA States geometry, I need to  provide the  locations as two-letter state abbreviations: The states column contained the full name I used the .map() with this dictionary to map the full state name to the two-letter state abbreviation
 ```python
 us_state_abbrev = {
