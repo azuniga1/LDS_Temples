@@ -31,7 +31,9 @@ temple_data = pd.read_csv(data)
 temple_data.head()
 ```
 
-I checked the date set for any crucial values missing by using isnull() how many rows and columns the data set contained by using .shape and nunique() to determine the number of unique values in the temple column. 
+![dataframe](images/dataframe.png)
+
+I checked the date set for missing by using isnull() and  how many rows and columns the data set contained by using .shape and nunique() to determine the number of unique values in the temple column. 
 
 #### Question
 How many temples are there world wide?
