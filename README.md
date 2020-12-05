@@ -87,6 +87,7 @@ us_state_abbrev = {
 temple_count_state['Abbrev'] = temple_count_state['State'].map(us_state_abbrev)
 ```
 
+![State Plot](images/stateplot.png)
 
 
 
