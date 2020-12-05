@@ -63,6 +63,9 @@ I used plotly to cretate interactive maps of the temples by country and US state
 
 ##### Country Graphs
 
+![Country Plot](images/country plot.png)
+
+
 
 ##### State Graphs
 To use the USA States geometry, I need to  provide the  locations as two-letter state abbreviations: The states column contained the full name I used the .map() with this dictionary to map the full state name to the two-letter state abbreviation
