@@ -63,7 +63,7 @@ I used plotly to cretate interactive maps of the temples by country and US state
 
 ##### Country Graphs
 
-![Country Plot](images/country plot.png)
+![Country Plot](images/countryplot.png)
 
 
 
