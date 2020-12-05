@@ -31,7 +31,7 @@ temple_data = pd.read_csv(data)
 temple_data.head()
 ```
 
-![dataframe]('images/dataframe.png')
+![dataframe](images/dataframe.PNG)
 
 I checked the date set for missing by using isnull() and  how many rows and columns the data set contained by using .shape and nunique() to determine the number of unique values in the temple column. 
 
