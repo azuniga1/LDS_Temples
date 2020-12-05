@@ -37,9 +37,11 @@ I checked the date set for missing by using isnull() and  how many rows and colu
 
 #### Question
 How many temples are there world wide?
+
 ![dataframe](images/NoOfTemples.PNG)
 
 What are the top 5 countries with temples?
+
 ![dataframe](images/Top5Countries.PNG)
 
 
