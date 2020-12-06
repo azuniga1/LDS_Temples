@@ -3,7 +3,7 @@
 
 
 # LDS Temples World Wide
-For this project I will analyzing and creating heatmaps from data set found : [Temples of the Church of Jesus Christ of Latter Day Saints](https://churchofjesuschristtemples.org/maps/downloads/). The CSV file contains the following data fields:
+For this project I will analyzing and creating Choropleth Maps from data set found at: [Temples of the Church of Jesus Christ of Latter Day Saints](https://churchofjesuschristtemples.org/maps/downloads/). The CSV file contains the following data fields:
 
 * Temple
 * Latitude
