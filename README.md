@@ -61,17 +61,17 @@ What are the top 5 US States with temples?
 
 
 
-#### Graphs
+#### Choropleth Map
 I used plotly to cretate interactive maps of the temples by country and US states. 
 
 
-##### Country Graph
+##### By Country 
 
 ![Country Plot](images/countryplot.png)
 
 
 
-##### State Graph
+##### By United States 
 To use the USA States geometry, I need to  provide the  locations as two-letter state abbreviations: The states column contained the full name I used the .map() with this dictionary to map the full state name to the two-letter state abbreviation
 ```python
 us_state_abbrev = {
