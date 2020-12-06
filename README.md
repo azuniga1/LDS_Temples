@@ -18,16 +18,16 @@ For this project I will analyzing and creating Choropleth Maps from data set fou
 * Phone
 
 ## Technology Used
-* Pandas
-* MatplotLib
-* Seaborn
+* [Pandas](https://pandas.pydata.org/)
+* [MatplotLib](https://matplotlib.org/)
+* [Seaborn](https://seaborn-image.readthedocs.io/en/latest/index.html)
 * [Plotly](https://plotly.com/python/choropleth-maps/#base-map-configuration)
 * [Cufflinks](https://github.com/santosjorge/cufflinks)
 
 ## Process
 ### Analysis
 
-I used pandas to read in the csv data to create a dataframe
+I used pandas to read in the csv data and create a dataframe
 
 ```python
 data = "Resources/ChurchofJesusChristTemples.csv"
@@ -37,7 +37,7 @@ temple_data.head()
 
 ![dataframe](images/dataframe.PNG)
 
-I checked the date set for missing by using isnull() and  how many rows and columns the data set contained by using .shape and nunique() to determine the number of unique values in the temple column. 
+I checked the date set for missing values by using isnull() and  how many rows and columns the data set contained by using .shape and nunique() to determine the number of unique values in the temple column. 
 
 #### Questions
 How many temples are there world wide?
@@ -62,7 +62,13 @@ What are the top 5 US States with temples?
 
 
 #### Choropleth Map
-I used plotly to cretate interactive maps of the temples by country and US states. 
+In order to create two maps based on Country and US we need to we need to use pandas .groupby() and filter the data by United States
+
+```python
+temples_by_country = temple_data.groupby(['Country'])
+united_states = temple_data.loc[temple_data['Country'] == "United States"].reset_index()
+```
+
 
 
 ##### By Country 
