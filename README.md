@@ -3,7 +3,7 @@
 
 
 # LDS Temples World Wide
-For this project I will be geographical ploting and  analyzing how many and where are all the LDS temples are located worldwide with data from [Temples of the Church of Jesus Christ of Latter Day Saints](https://churchofjesuschristtemples.org/maps/downloads/). The CSV file contains the following data fields:
+For this project I will analyzing and creating heatmaps from data set found : [Temples of the Church of Jesus Christ of Latter Day Saints](https://churchofjesuschristtemples.org/maps/downloads/). The CSV file contains the following data fields:
 
 * Temple
 * Latitude
