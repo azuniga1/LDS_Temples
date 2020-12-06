@@ -21,7 +21,7 @@ For this project I will analyzing and creating Choropleth Maps from data set fou
 * Pandas
 * MatplotLib
 * Seaborn
-* Plotly
+* [Plotly](https://plotly.com/python/choropleth-maps/#base-map-configuration)
 * [Cufflinks](https://github.com/santosjorge/cufflinks)
 
 ## Process
