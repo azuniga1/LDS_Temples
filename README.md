@@ -32,7 +32,6 @@ I used jupyter notebook for my analysis with the following set up
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import country_converter as coco
 import chart_studio.plotly as py
 import plotly.graph_objs as go
 import pandas as pd
