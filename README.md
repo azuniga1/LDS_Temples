@@ -1,7 +1,8 @@
 # LDS Temples Far and Wide 
 ![Salt lake city temple](images/salt_lake_city_temple.jpeg)
 
-There are 214 temples as of Oct 2020 based on the data set downloaded from the link below. The top five contries that containt temples are United States(96), Mexico(14), Brazil(11), Canada(9), Argentina(5).  The Top US States that have temples are Utah(24), California(8), Arizona(6), Idaho(6) and  Texas(5). 
+There are 214 temples as of Oct 2020 based on the data set downloaded from the link below. The top five contries that containt temples are United States(96), Mexico(14), Brazil(11), Canada(9), Argentina(5).  The Top US States that have temples are Utah(24), California(8), Arizona(6), Idaho(6) and  Texas(5). I was suprised to learn that there are no temples in the following states Deleware, Iowa Kansas, Main, Mississippi, New Hampshire, New Jersey, Rhode Island, South Dakota, Vermont, West Virginia, Wisconsin.
+
 
 For this project I will analyzing and creating Choropleth Maps from the following data set: [Temples of the Church of Jesus Christ of Latter Day Saints](https://churchofjesuschristtemples.org/maps/downloads/). The CSV file contains the following data fields:
 
