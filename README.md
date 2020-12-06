@@ -62,14 +62,12 @@ What are the top 5 US States with temples?
 
 
 #### Choropleth Map
-In order to create two maps based on Country and US we need to we need to use pandas .groupby() and filter the data by United States
+In order to create two maps based on country and US we need to use pandas .groupby() and filter the data by United States
 
 ```python
 temples_by_country = temple_data.groupby(['Country'])
 united_states = temple_data.loc[temple_data['Country'] == "United States"].reset_index()
 ```
-
-
 
 ##### By Country 
 
