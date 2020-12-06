@@ -28,7 +28,7 @@ For this project I will analyzing and creating Choropleth Maps from the followin
 ### setup
 
 I used jupyter notebook for my analysis with the following set up
-~python
+~~~python
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
