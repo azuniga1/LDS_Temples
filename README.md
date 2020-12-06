@@ -1,4 +1,5 @@
 # LDS Temples Far and Wide 
+
 Salt-Lake City Temple
 ![Salt lake city temple](images/salt_lake_city_temple.jpeg)
 
