@@ -1,7 +1,6 @@
 ![Salt lake city temple](images/salt_lake_city_temple.jpeg)
 
 
-
 # LDS Temples World Wide
 For this project I will analyzing and creating Choropleth Maps from data set found at: [Temples of the Church of Jesus Christ of Latter Day Saints](https://churchofjesuschristtemples.org/maps/downloads/). The CSV file contains the following data fields:
 
