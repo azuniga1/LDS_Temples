@@ -24,6 +24,25 @@ For this project I will analyzing and creating Choropleth Maps from the followin
 * [Cufflinks](https://github.com/santosjorge/cufflinks)
 
 ## Process
+
+### setup
+
+I used jupyter notebook for my analysis with the following set up
+~python
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import country_converter as coco
+import chart_studio.plotly as py
+import plotly.graph_objs as go
+import pandas as pd
+from plotly.offline import download_plotlyjs, init_notebook_mode,plot,iplot
+import cufflinks as cf
+init_notebook_mode(connected=True)
+%matplotlib inline
+cf.go_offline()
+~~~
+
 ### Analysis
 
 I used pandas to read in the csv data and create a dataframe
